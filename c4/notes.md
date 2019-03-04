@@ -115,7 +115,7 @@ soup.head.title.string
 soup.p.contents(获取p节点的直接节点, 并且以list的形式返回)
 soup.p.children(返回p节点的直接子节点, generator)
 soup.p.descendants(p的所有子孙节点,generator)
-soup.a.paretn(寻找父亲节点, generator)
+soup.a.parent(寻找父亲节点, generator)
 soup.a.parents(寻找祖先节点, generator)
 soup.a.next_sbiling?s(寻找下一个兄弟节点, )
 soup.a.previous_sibling?s(寻找前一个兄弟节点)
